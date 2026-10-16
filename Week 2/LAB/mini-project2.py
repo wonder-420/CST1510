@@ -17,6 +17,7 @@ percent = (value/limit)*100
 
 
 if percent >= 90:
+        """checking threshhold of status"""
         status = print("WARNING!")
 
 elif percent < 95:

@@ -24,6 +24,7 @@ def check(value, limit):
     return difference, percent
 
 def print_report(label, value, limit, difference,percent, status):
+     """function to print everyting"""
      print(f"{label:<15}\n value={value:<15.2f}\n limit={limit:<15.2f}\n "
           f"difference={difference:<+15.2f}\n percent={percent:<15.2f}%\n status={status:<15}\n")
 
