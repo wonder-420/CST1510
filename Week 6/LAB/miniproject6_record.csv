@@ -1,0 +1,7 @@
+hostname,value,limit
+srv-01,87,120
+srv-02,45,100
+srv-03,103,110
+srv-04,88,100
+srv-05,76,90
+srv-06,120,120
